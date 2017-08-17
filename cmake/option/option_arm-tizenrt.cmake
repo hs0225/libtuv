@@ -25,7 +25,7 @@ set(PLATFORM_SRCFILES
 set(PLATFORM_TESTFILES "${TEST_ROOT}/runner_tizenrt.c")
 
 if(DEFINED TARGET_BOARD)
-  if(${TARGET_BOARD} STREQUAL "artik05x")
+  if(${TARGET_BOARD} STREQUAL "artik053")
     set(FLAGS_COMMON
           ${FLAGS_COMMON}
           "-mcpu=cortex-r4"
